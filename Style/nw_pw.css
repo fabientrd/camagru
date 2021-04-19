@@ -1,0 +1,83 @@
+.user{
+    width: 32px;
+    height: 50px;
+    color: #fff;
+    top: 15%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.nw_pw .icon {
+    position: absolute;
+    bottom: 6vh;
+}
+
+.nw_pw{
+    width: 320px;
+    height: 350px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+
+
+.nw_pw p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nw_pw input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nw_pw input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nw_pw input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.nw_pw input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.nw_pw a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.nw_pw a:hover {
+    color: #ffc107;
+}
